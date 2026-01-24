@@ -1,4 +1,3 @@
-package Strategy_Design_Pattern;
 
 interface DiscountStratergy {
     int applyDiscount(int amount);

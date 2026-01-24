@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>14</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>14</x><y>0</y><w>294</w><h>126</h></coordinates><panel_attributes>&lt;&lt;Factory&gt;&gt;
+LoggerFactory
+--
+
+--
+/+getLogger(String type) : Logger/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>336</x><y>266</y><w>294</w><h>126</h></coordinates><panel_attributes>&lt;&lt;ConcreteProduct&gt;&gt;
+FileLogger
+--
+
+--
+/# log(String message): void /
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>532</x><y>14</y><w>294</w><h>126</h></coordinates><panel_attributes>&lt;&lt;Product&gt;&gt;
+Logger
+--
+
+--
+/# log(String message): void /
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>686</x><y>266</y><w>294</w><h>126</h></coordinates><panel_attributes>&lt;&lt;ConcreteProduct&gt;&gt;
+DataBaseLogger
+--
+
+--
+/# log(String message): void /
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>126</y><w>126</w><h>168</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;100;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>126</y><w>112</w><h>168</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>60;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>294</x><y>56</y><w>266</w><h>42</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>266</y><w>294</w><h>126</h></coordinates><panel_attributes>&lt;&lt;Service&gt;&gt;
+Client
+--
++  Logger logger 
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>126</x><y>112</y><w>42</w><h>182</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element></diagram>
