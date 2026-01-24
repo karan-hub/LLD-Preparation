@@ -1,0 +1,26 @@
+<diagram program="umletino" version="15.1"><zoom_level>3</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>360</x><y>240</y><w>78</w><h>30</h></coordinates><panel_attributes>&lt;&lt;Context &gt;&gt;
+ DiscountService
+--
++ DiscountStrategy strategy
+--
+- DiscountService(DiscountStrategy strategy)
++ calculateDiscount(int amount): int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>495</x><y>240</y><w>72</w><h>30</h></coordinates><panel_attributes>&lt;&lt;Strategy&gt;&gt;
+ DiscountStrategy
+--
+/# ApplyDiscount(DiscountStrategy  strategy)/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>393</x><y>294</y><w>72</w><h>30</h></coordinates><panel_attributes>&lt;&lt;ConcreteStrategy&gt;&gt;
+ Regular
+--
+/# ApplyDiscount(DiscountStrategy  strategy)/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>474</x><y>294</y><w>72</w><h>30</h></coordinates><panel_attributes>&lt;&lt;ConcreteStrategy&gt;&gt;
+ Primium
+--
+/# ApplyDiscount(DiscountStrategy  strategy)/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>552</x><y>294</y><w>72</w><h>30</h></coordinates><panel_attributes>&lt;&lt;ConcreteStrategy&gt;&gt;
+ SpecialOffer
+--
+/# ApplyDiscount(DiscountStrategy  strategy)/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>441</x><y>267</y><w>75</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>18;88;240;10</additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>267</y><w>9</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>18;88;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>549</x><y>267</y><w>33</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>88;88;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>426</x><y>159</y><w>93</w><h>30</h></coordinates><panel_attributes>&lt;&lt;Context &gt;&gt;
+ DiscountService
+--
++ DiscountStrategy strategy
++ DiscountService service 
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>435</x><y>249</y><w>66</w><h>9</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;200;10</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>186</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>80;180;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>426</x><y>186</y><w>27</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;180;70;10</additional_attributes></element></diagram>
